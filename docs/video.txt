@@ -1,0 +1,148 @@
+kapwing.com
+
+
+trim
+
+no audio
+cut 13.20 - 16.30
+cut 36.15 - 49.90
+cut 2:13.10 - 2:17.10
+
+
+subtitles
+
+quicksand
+8
+
+import private keys
+00.10
+12.30
+
+switch to the ropsten testnet
+23.60
+30.20
+
+connect with metamask
+30.30
+34.00
+
+select all accounts to connect
+34.10
+39.10
+
+this is the operator's interface
+39.20
+42.00
+
+in this example, account 4 is the operator
+42.10
+44.60
+
+account 5 is the fund
+44.70
+46.80
+
+this is the interface for any account, other than the operator
+46.90
+50.20
+
+in this example, accounts 6 and 7 are holders
+50.30
+55.80
+
+copy account 6 address
+55.90
+59.00
+
+open operator account
+59.10
+01:03.60
+
+paste holder's address
+01:03.70
+01:05.80
+
+enter the serial numbers of the retired carbon credits for account 6
+01:00.30
+01:12.22
+
+confirm the transaction in metamask
+59.10
+01:04.61
+
+wait for the transaction to be confirmed
+01:04.70
+01:07.50
+
+2 carbon credits have been successfully retired
+01:07.60
+01:10.20
+
+check the state of the account 6
+01:10.30
+01:14.20
+
+to convert retired carbon credits into tokens, enter the address to which tokens will be issued
+01:14.30
+01:16.70
+
+by default this is the address of the currently opened account
+01:16.80
+01:20.60
+
+200 tokens have been issued, 90% of them have been sent to the specified address
+01:26.90
+01:30.90
+
+it is impossible to issue the same tokens twice
+01:31.00
+01:38.10
+
+10% (20 tokens) goes to the fund
+01:40.80
+01:46.00
+
+copy-paste account 7 address
+01:46.90
+01:56.90
+
+open file with serials numbers of the retired carbon credits for account 7 
+(any text file with numbers will do)
+01:57.00
+02:01.80
+
+check this to directly issue tokens for a specified address
+02:01.90
+02:04.00
+
+200 credits have been retired and 20000 tokens have been issued
+02:17.30
+02:23.50
+
+2000 tokes have been sent to the fund
+02:27.50
+02:31.70
+
+it is impossible to retire carbon credit with the same serial number twice
+02:34.90
+02:48.00
+
+only 1 carbon credit with a new unique serial number has been retired
+02:48.10
+02:51.50
+
+etherscan page of the contract
+02:57.50
+03:01.10
+
+M+C token's page
+03:01.20
+03:03.70
+
+all token holders
+03:03.80
+03:08.20
+
+copy-paste the contract address to add the token in metamask
+03:08.90
+03:19.00

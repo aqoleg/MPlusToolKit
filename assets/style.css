@@ -1,0 +1,145 @@
+/* color: blue */
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+div, button, input, textarea {
+    font-family: monospace;
+}
+a {
+    color: black;
+}
+h1, h2 {
+    margin: 5px;
+    font-weight: normal;
+    text-align: center;
+}
+textarea {
+    height: 320px;
+}
+button {
+    display: block;
+    width: 200px;
+    height: 48px;
+    border: 2px solid black;
+    margin: auto;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#noFooter {
+    min-height: calc(100vh - 80px); /* footer heigth */
+}
+#message {
+    height: 64px;
+    padding-top: 16px;
+    text-align: center;
+}
+#install, #network, #connect, #user, #operator, #reading {
+    display: none;
+}
+#tokens {
+    margin-bottom: 40px;
+}
+.credits {
+    margin: 5px 0px 64px;
+    text-align: center;
+}
+.label {
+    display: block;
+    width: 90%;
+    max-width: 700px;
+    margin: 32px auto;
+    cursor: text;
+}
+.hint {
+    padding-left: 8px;
+    color: red;
+    font-size: 10px;
+}
+.input {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: -10px;
+    border: 2px solid black;
+    padding: 8px;
+    background: none;
+    font-size: 16px;
+}
+.input:focus, textarea:focus {
+    border-color: blue;
+}
+#file {
+    display: none;
+}
+.checkbox {
+    display: block;
+    width: 200px;
+    margin: 32px auto;
+    line-height: 32px;
+    cursor: pointer;
+}
+.checkbox input {
+    display: none;
+}
+.box {
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+}
+.box span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    background: white;
+}
+.checkboxHint {
+    padding-left: 10px;
+}
+.checkbox input:checked ~ .box span {
+    background: blue;
+}
+#userLog, #operatorLog {
+    width: 90%;
+    margin: 32px auto 0px;
+    padding-bottom: 32px;
+}
+#footer {
+    height: 80px;
+}
+#footer a {
+    float: right;
+    margin-top: 24px;
+    margin-right: 5%;
+    padding: 4px;
+    font-size: 16px;
+}
+.onestring {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (hover: hover) {
+    a:hover {
+        color: blue;
+    }
+    #open:hover ~ textarea {
+        border-color: black;
+    }
+    .input:hover, textarea:hover {
+        border-color: blue;
+    }
+    button:hover {
+        border-color: blue;
+        color: blue;
+    }
+    .checkbox input:hover ~ .box {
+        border-color: blue;
+    }
+}
